@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form>
+          <label>User id:</label>
+            <input type="text" name="user id" required minlength="5" maxlength="12">
+            <span style="color: red;">Required and must be of lenrth 5 to 12.</span>
+            <br><br>
+            <label>Password:</label>
+            <input type="password" name="password" required minlength="7" maxlength="12"> 
+            <span style="color: red;"> Required and must be of lenrth 5 to 12.</span>
+            <br><br>
+            <label>Name:</label>
+            <input type="text" name="name" pattern="[A-Za-z]" required> 
+            <span style="color: red;"> Required and alphabets only.</span>
+            <br><br>
+            <label>Address:</label>
+            <input type="text" name="address"> 
+            <span style="color: red;"> Optional.</span>
+            <br><br>
+            <label>Country:</label>
+            <select name="Country" required> <option value=" ">(please select a country)</option>
+                <option value="Egypt"> Egypt</option>
+                <option value="Tunisia"> Tunisia</option>
+                <option value="Saudi Arabia"> Saudi Arabia</option>
+                <option value="USA"> USA</option>
+            </select>
+            <span style="color: red;"> Required must select a country</span>
+            <br><br>
+            <label>ZIP: </label>
+            <input type="text" name="zip" pattern="[0-9]+" required>
+            <span style="color: red;"> Required. Must be numeric only.</span>
+            <br><br>
+            <label>Email: </label>
+            <input type="email" name="email" required>
+            <span style="color: red;"> Required. Must be a valid email.</span>
+            <br><br>
+            <label> sex: </label>
+            <input type="radio" name="sex" value="male" required> Male
+            <input type="radio" name="sex" value="female" required> Female
+            <span style="color: red;">  Required.</span>
+            <br><br>
+            <label>Language:</label>
+            <input type="checkbox" name="lang" value="English" required>English
+            <input type="checkbox" name="lang" value="NonEnglish">Non English
+            <span style="color:red;"> Required.</span>
+            <br><br>
+            <label>About:</label><br>
+            <textarea name="about" rows="6" cols="30"></textarea>
+            <span style="color:red;"> Optional.</span>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
+
+
