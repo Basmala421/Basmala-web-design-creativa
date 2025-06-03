@@ -28,9 +28,15 @@ nav {
     background-color: black;
     padding: 0%;
 }
-.d-block{display: block;}
+.d-block{
+  display: block;
+
+}
 .d-inline-block {
     display: inline;
+}
+.position{
+  position: sticky;
 }
 nav ul {
     list-style: none;

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-light{
+    background-color: lightgray;
+}
+.container{
+    padding: 3%;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.card{
+    width: 30%;
+    background-color: white;
+    padding: 2%;
+    border: 1% solid;
+    align-items: center;
+    transition-duration: 3s;
+    /* transition-timing-function: 2s; */
+
+}
+.card a:hover{
+    background-color: blue;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom:5% ;
+    list-style: none;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.layout{
+    display: none;
+    justify-content: start;
+    align-items: end;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(6, 6, 6, 0.229);
+}
+.layout h1{
+ color: white;
+ margin-left: 20%;
+ margin-right:auto ;
+ margin-bottom:5%;
+
+}
+.image{
+    position: relative;
+    padding: 8%;
+
+}
+
+.card:hover .layout{
+    display: flex;
+
+}
+.author-img {
+ position: absolute;
+    bottom: -10%;
+    left: 82%;
+    width: 60px;
+    height: 60px;
+    border-radius: 43%;
+    object-fit: cover;
+    border: 3px solid white;
+    background: white;
+}
+span{
+    color: blue;
+}
+
+h3{
+    padding: 4%;
+}
+
+
+.underline{
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: black;
+    top: 61%;
+}
