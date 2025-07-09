@@ -1,0 +1,104 @@
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; 
+  
+}
+
+.nav-item.dropdown .nav-link:hover{
+color: #0d6efd !important;
+}
+
+
+.ms-5 {
+    margin-left: 28rem !important;
+}   
+
+   
+   .form-container {
+  border: none;
+  transition: border 0.3s ease;
+}
+
+.form-container.border-yellow {
+  border: 2px solid yellow;
+}
+
+.form-container.border-red {
+  border: 2px solid red;
+}
+
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #007bff;
+}
+
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label {
+  opacity: 1;
+  transform: scale(.85) translateY(-1.5rem) translateX(.15rem);
+}
+
+.form-floating > label {
+  opacity: 0.7;
+  transition: all 0.2s ease-in-out;
+}
+
+.invalid-feedback {
+  display: none;
+  font-size: 0.875rem;
+  color: #dc3545;
+}
+
+.is-invalid ~ .invalid-feedback {
+  display: block;
+}
+
+/* Light gray messages */
+.light-message {
+  color: #999;
+  font-size: 0.9rem;
+}
+
+#again-message {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.hidden-message {
+  display: none;
+}
+
+.bg-icon {
+  font-size: 100px;
+  top: 50%;
+  left:90px;
+  transform: translateY(-50%);
+  z-index: 1;
+  pointer-events: none;
+}
+.talk-us .container {
+  position: relative;
+  z-index: 2;
+}  
+
+  .tag-btn {
+    font-size: 14px;
+    padding: 5px 12px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    border: none;
+    transition: all 0.3s ease;
+  }
+
+  .tag-btn:hover {
+    background-color: #0d6efd; 
+    color: white;
+  }
