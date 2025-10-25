@@ -15,7 +15,6 @@
   <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/contact.css">
 
-
 </head>
 
 <body>
@@ -61,7 +60,7 @@
             <ul class="navbar-nav ms-3 mb-2 mb-lg-0">
               <li class="nav-item dropdown">
                  
-                <a class="nav-link  p-3 text-dark " href="index.html" role="button"  
+                <a class="nav-link dropdown-toggle p-3 text-dark " href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Home
                 </a>
@@ -124,7 +123,7 @@
                 <a class="nav-link  p-3 text-dark" href="#">PAGES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link  p-3 text-dark" href="contact/contact.html">CONTACT</a>
+                <a class="nav-link  p-3 text-dark" href=" contact.html">CONTACT</a>
               </li>
 
 
@@ -228,10 +227,12 @@
       <div class="row">
         <div class="col-12 ">
           <div class="titles">
-            <h1 class="title ">
+            <h1 class="title d-flex justify-content-center align-items-center ">
               <span class="mt-5"> About Us</span>
             </h1>
-            <p class="mt-3">About AS</p>
+            <p class="mt-3">
+            
+              About AS</p>
           </div>
         </div>
       </div>
@@ -416,7 +417,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. incididunt ut
                       labore et dolore. Lorem ipsum dolor sit amet.</p>
 
-                    <a href="#" class="btn btn-primary rounded-pill shin">read more</a>
+                    <a href="#" class="btn btn-primary rounded-pill">read more</a>
                   </div>
                 </div>
               </div>
@@ -438,7 +439,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. incididunt ut
                       labore et dolore. Lorem ipsum dolor sit amet.</p>
 
-                    <a href="#" class="btn btn-primary rounded-pill shin">read more</a>
+                    <a href="#" class="btn btn-primary rounded-pill">read more</a>
                   </div>
                 </div>
               </div>
@@ -460,7 +461,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. incididunt ut
                       labore et dolore. Lorem ipsum dolor sit amet.</p>
 
-                    <a href="#" class="btn btn-primary rounded-pill shin">read more</a>
+                    <a href="#" class="btn btn-primary rounded-pill">read more</a>
                   </div>
                 </div>
               </div>
@@ -484,7 +485,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. incididunt ut
                       labore et dolore. Lorem ipsum dolor sit amet.</p>
 
-                    <a href="#" class="btn btn-primary rounded-pill shin">read more</a>
+                    <a href="#" class="btn btn-primary rounded-pill">read more</a>
                   </div>
                 </div>
               </div>
@@ -506,7 +507,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. incididunt ut
                       labore et dolore. Lorem ipsum dolor sit amet.</p>
 
-                    <a href="#" class="btn btn-primary rounded-pill shin">read more</a>
+                    <a href="#" class="btn btn-primary rounded-pill">read more</a>
                   </div>
                 </div>
               </div>
@@ -528,7 +529,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. incididunt ut
                       labore et dolore. Lorem ipsum dolor sit amet.</p>
 
-                    <a href="#" class="btn btn-primary rounded-pill shin">read more</a>
+                    <a href="#" class="btn btn-primary rounded-pill">read more</a>
                   </div>
                 </div>
               </div>
@@ -565,32 +566,26 @@
           </div>
         </div>
 
+<div class="col-sm-12">
 
 
 
-        <div class="col-sm-12">
-          <ul class="sorting text-center d-flex justify-content-center" style="list-style: none;">
-            <li class="filter-btn active" data-filter="*">
-              <span>all</span>
-            </li>
-            <li class="filter-btn" data-filter=".creative-design">
-              <span> Creative Design</span>
-            </li>
-
-            <li class="filter-btn" data-filter=".developement">
-              <span> Developement</span>
-            </li>
-
-            <li class="filter-btn" data-filter=".graphic-design">
-              <span> Graphic Design</span>
-            </li>
-
-
-          </ul>
-        </div>
-      </div>
-
-      <div class="row ">
+      <ul class="nav nav-pills mb-3 sorting text-center d-flex justify-content-center" style="list-style: none;" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">creative Design</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Developement</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false" disabled>Graphic Design</button>
+  </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0"> <div class="row ">
         <div class="col-md-4 col-sm-6">
           <div class="image-box position-relative mt-4">
             <img
@@ -704,7 +699,131 @@
             </div>
           </div>
         </div>
+      </div></div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+    <div class="col-md-4 col-sm-6">
+          <div class="image-box position-relative mt-4 ">
+            <img
+              src="https://digitaltemplatemarket.com/wp/tradex-premium/wp-content/uploads/sites/6/2018/11/office-1209640_1920-1-360x380.jpg"
+              class="img-fluid" alt="Image 3">
+            <div class="overlay-bottom d-flex justify-content-between align-items-center">
+
+              <div class="overlay-text text-end">
+                <div class="small-text">Development, Graphic Design</div>
+                <div class="title-text fw-bold">Project Title 01</div>
+              </div>
+
+              <div class="overlay-icon">
+                <i class="fa fa-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+          <div class="image-box position-relative mt-4">
+            <img
+              src="https://digitaltemplatemarket.com/wp/tradex-premium/wp-content/uploads/sites/6/2018/11/port7-370x390.jpg"
+              class="img-fluid" alt="Image 1">
+            <div class="overlay-bottom d-flex justify-content-between align-items-center">
+
+              <div class="overlay-text text-end">
+                <div class="small-text">Development, Graphic Design</div>
+                <div class="title-text fw-bold">Project Title 01</div>
+              </div>
+
+              <div class="overlay-icon">
+                <i class="fa fa-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+  </div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+    <div class="col-md-4 col-sm-6">
+          <div class="image-box position-relative mt-4">
+            <img
+              src="https://digitaltemplatemarket.com/wp/tradex-premium/wp-content/uploads/sites/6/2018/11/port2-370x390.jpg"
+              class="img-fluid" alt="Image 1">
+            <div class="overlay-bottom d-flex justify-content-between align-items-center">
+
+              <div class="overlay-text text-end">
+                <div class="small-text">Development, Graphic Design</div>
+                <div class="title-text fw-bold">Project Title 01</div>
+              </div>
+
+              <div class="overlay-icon">
+                <i class="fa fa-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+          <div class="image-box position-relative mt-4">
+            <img
+              src="https://digitaltemplatemarket.com/wp/tradex-premium/wp-content/uploads/sites/6/2018/11/computer-472016_1920-360x380.jpg"
+              class="img-fluid" alt="Image 2">
+            <div class="overlay-bottom d-flex justify-content-between align-items-center">
+
+              <div class="overlay-text text-end">
+                <div class="small-text">Development, Graphic Design</div>
+                <div class="title-text fw-bold">Project Title 01</div>
+              </div>
+
+              <div class="overlay-icon">
+                <i class="fa fa-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+          <div class="image-box position-relative mt-4 ">
+            <img
+              src="https://digitaltemplatemarket.com/wp/tradex-premium/wp-content/uploads/sites/6/2018/11/office-1209640_1920-1-360x380.jpg"
+              class="img-fluid" alt="Image 3">
+            <div class="overlay-bottom d-flex justify-content-between align-items-center">
+
+              <div class="overlay-text text-end">
+                <div class="small-text">Development, Graphic Design</div>
+                <div class="title-text fw-bold">Project Title 01</div>
+              </div>
+
+              <div class="overlay-icon">
+                <i class="fa fa-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+          <div class="image-box position-relative mt-4">
+            <img
+              src="https://digitaltemplatemarket.com/wp/tradex-premium/wp-content/uploads/sites/6/2018/11/port7-370x390.jpg"
+              class="img-fluid" alt="Image 1">
+            <div class="overlay-bottom d-flex justify-content-between align-items-center">
+
+              <div class="overlay-text text-end">
+                <div class="small-text">Development, Graphic Design</div>
+                <div class="title-text fw-bold">Project Title 01</div>
+              </div>
+
+              <div class="overlay-icon">
+                <i class="fa fa-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+  <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div>
+</div>
+
+</div>
       </div>
+
+     
     </div>
   </section>
 
@@ -1007,7 +1126,7 @@
                 </li>
               </ul>
               <div class="footer ps-5" style="font-size: 14px;;text-transform: uppercase;">
-                <a href="#" class="btn btn-primary btn-custom rounded-pill py-3 shin"> get started now </a>
+                <a href="#" class="btn btn-primary btn-custom rounded-pill py-3"> get started now </a>
               </div>
             </div>
             <div class="card bg-light-subtle shadow-lg p-5  bg-body-tertiary rounded"
@@ -1033,7 +1152,7 @@
                 </li>
               </ul>
               <div class="footer ps-5" style="font-size: 14px;;text-transform: uppercase;">
-                <a href="#" class="btn btn-transperent btn-custom rounded-pill py-3 text-primary border border-primary shin">
+                <a href="#" class="btn btn-transperent btn-custom rounded-pill py-3 text-primary border border-primary">
                   get
                   started now </a>
               </div>
@@ -1050,7 +1169,6 @@
                   <h4><i class="fa fa-check text-primary"></i>20 PSD Pack</h4>
                   <p>Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
 
-
                 </li>
                 <li class="border-bottom border-dark-subtle">
                   <h4 class="mt-4"><i class="fa fa-check text-primary"></i>20 Wordpress Pack</h4>
@@ -1062,7 +1180,7 @@
                 </li>
               </ul>
               <div class="footer ps-5" style="font-size: 14px;;text-transform: uppercase;">
-                <a href="#" class="btn btn-primary btn-custom rounded-pill py-3 shin"> get started now </a>
+                <a href="#" class="btn btn-primary btn-custom rounded-pill py-3"> get started now </a>
               </div>
             </div>
           </div>
@@ -1092,7 +1210,7 @@
                 </li>
               </ul>
               <div class="footer ps-5" style="font-size: 14px;;text-transform: uppercase;">
-                <a href="#" class="btn btn-primary btn-custom rounded-pill py-3 shin"> get started now </a>
+                <a href="#" class="btn btn-primary btn-custom rounded-pill py-3"> get started now </a>
               </div>
             </div>
             <div class="card bg-light-subtle shadow-lg p-5  bg-body-tertiary rounded"
@@ -1118,7 +1236,7 @@
                 </li>
               </ul>
               <div class="footer ps-5" style="font-size: 14px;;text-transform: uppercase;">
-                <a href="#" class="btn btn-transperent btn-custom rounded-pill py-3 text-primary border border-primary shin">
+                <a href="#" class="btn btn-transperent btn-custom rounded-pill py-3 text-primary border border-primary">
                   get
                   started now </a>
               </div>
@@ -1146,7 +1264,7 @@
                 </li>
               </ul>
               <div class="footer ps-5" style="font-size: 14px;;text-transform: uppercase;">
-                <a href="#" class="btn btn-primary btn-custom rounded-pill py-3 shin"> get started now </a>
+                <a href="#" class="btn btn-primary btn-custom rounded-pill py-3"> get started now </a>
               </div>
             </div>
           </div>
